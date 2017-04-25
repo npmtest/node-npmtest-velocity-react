@@ -1,6 +1,6 @@
 # npmtest-velocity-react
 
-#### test coverage for  [velocity-react (v1.2.1)](https://github.com/twitter-fabric/velocity-react#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-velocity-react.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-velocity-react) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-velocity-react.svg)](https://travis-ci.org/npmtest/node-npmtest-velocity-react)
+#### basic test coverage for  [velocity-react (v1.2.2)](https://github.com/twitter-fabric/velocity-react#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-velocity-react.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-velocity-react) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-velocity-react.svg)](https://travis-ci.org/npmtest/node-npmtest-velocity-react)
 
 #### React components to wrap Velocity animations
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-velocity-react/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-velocity-react/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-velocity-react/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-velocity-react/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-velocity-react/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-velocity-react/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-velocity-react/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-velocity-react/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-velocity-react/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-velocity-react/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-velocity-react/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-velocity-react/build/coverage.html/index.html)
 
@@ -66,10 +66,10 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "d0cb59289a3b666c596da109d5f541d6e6f8ad98",
-        "tarball": "https://registry.npmjs.org/velocity-react/-/velocity-react-1.2.1.tgz"
+        "shasum": "4e3dcd6a4ba2b5b44748b3b1c18391838265ad56",
+        "tarball": "https://registry.npmjs.org/velocity-react/-/velocity-react-1.2.2.tgz"
     },
-    "gitHead": "86a1c786867cec66c6e05c42fb7d290d3ca97c5b",
+    "gitHead": "89c8675ddf33eca05a5d76ebdc105d09ec604a9b",
     "homepage": "https://github.com/twitter-fabric/velocity-react#readme",
     "keywords": [
         "velocity",
@@ -102,7 +102,8 @@
     "scripts": {
         "demo": "webpack-dev-server --progress --colors --content-base demo --hot --inline --config demo/webpack.config.js"
     },
-    "version": "1.2.1"
+    "version": "1.2.2",
+    "bin": {}
 }
 ```
 
